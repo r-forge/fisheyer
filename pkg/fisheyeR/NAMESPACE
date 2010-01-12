@@ -1,0 +1,16 @@
+exportPattern("^[[:alpha:]]+")
+exportMethods(
+    "POICalc",
+    "POIcalculate<-",
+    "POIcolors<-",
+    "POIcoords<-",
+    "POIPlot",
+    "query2Cols" 
+)
+exportClasses(
+    "mPOIAnd",
+     "mPOIOr",
+     "multiPOI",
+     "POI",
+     "POIGraph" 
+)
