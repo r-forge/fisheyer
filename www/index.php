@@ -72,10 +72,10 @@ fisheyeR provides tools for creating Interactive Data Visualizations.
   <td align="left"> Type: </td>  <td align="left"> Package</td>
 </tr>
 <tr>
-  <td align="left"> Version: </td>  <td align="left"> 1.0</td>
+  <td align="left"> Version: </td>  <td align="left"> 0.9</td>
 </tr>
 <tr>
-  <td align="left"> Date: </td>  <td align="left"> 2009-10-29</td>
+  <td align="left"> Date: </td>  <td align="left"> 2010-01-10</td>
 </tr>
 <tr>
   <td align="left"> License: </td>  <td align="left"> GPL-2</td>
