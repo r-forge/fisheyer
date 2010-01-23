@@ -12,8 +12,8 @@ fisheyeR provides tools for creating Interactive Data Visualizations.
 \tabular{ll}{
 Package: \tab fisheyeR\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2009-10-29\cr
+Version: \tab 0.9\cr
+Date: \tab 2010-01-10\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 Depends: \tab methods\cr
