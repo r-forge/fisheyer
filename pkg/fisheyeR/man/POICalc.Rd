@@ -49,6 +49,7 @@ Eduardo San Miguel Martin
 \seealso{\code{\link{POIPlot-methods}},\code{\link{POI-class}},\code{\link{plotPOI}}}
 
 \examples{
+\dontrun{
    ## IRIS Example
    data(iris)
    
@@ -77,4 +78,5 @@ Eduardo San Miguel Martin
    irisPOI@colores <- c(rep(2,50),rep(3,50),rep(4,50))
    try(rm('POI.env'), silent = T)
    plotPOI(irisPOI)
+}
 }

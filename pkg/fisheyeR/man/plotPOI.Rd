@@ -55,7 +55,7 @@
 \seealso{\code{\link{POI-class}},\code{\link{POIPlot-methods}}, \code{\link{POIPlot}}}
 
 \examples{
-   
+\dontrun{   
    ## rgb colors 
    rgbPOI = POICreate(type = 'POI', wordsInQuery = c('red','green','blue'),
                        colores = colors(), itemsCol = colors(),
@@ -137,11 +137,11 @@
    plotPOI(usaPOI)
 
    ## clusters  EXAMPLE
-   x <- matrix(rnorm(15000, mean = 0, sd = .5), ncol = 5) 
+   x <- matrix(rnorm(1500, mean = 0, sd = .5), ncol = 5) 
    atipV1 = sample(nrow(x), as.integer(nrow(x)/3)) # outliers in V1
    atipV2 = sample(nrow(x), as.integer(nrow(x)/3)) # outliers in V2
-   x[atipV1, 1] <- rnorm(1000, mean = 2, sd = .5)  
-   x[atipV2, 2] <- rnorm(1000, mean = 2, sd = .5)  
+   x[atipV1, 1] <- rnorm(100, mean = 2, sd = .5)  
+   x[atipV2, 2] <- rnorm(100, mean = 2, sd = .5)  
    cl <- kmeans(x, 3, iter.max = 100 ,nstart = 25)
    matrizSim =  sqrt(round((x - colMeans(x))^2,1 )/nrow(x))    # simmilarity within outliers
    # OR (uncomment one)
@@ -157,4 +157,5 @@
    try(rm('POI.env'), silent = T)
    plotPOI(varPOI)
  
+}
 }
